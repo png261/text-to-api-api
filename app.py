@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 
-@app.route('/text-to-ipa', methods=['GET'])
+@app.route('/', methods=['GET'])
 def text_to_ipa():
     text = request.args.get('text')
     ipa_result = text_to_ipa_function(text)
