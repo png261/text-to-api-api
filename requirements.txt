@@ -1,0 +1,3 @@
+Flask
+Gunicorn
+eng_to_ipa
