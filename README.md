@@ -2,13 +2,13 @@
 Text to IPA api
 
 ```
-https://text-to-ipa.onrender.com/text-to-ipa?text=<Text>
+https://text-to-ipa.onrender.com?text=<Text>
 ```
 # Example
 
 **GET**
 ```
-https://text-to-ipa.onrender.com/text-to-ipa?text="hello world"
+https://text-to-ipa.onrender.com?text="hello world"
 ```
 
 **RESPONSE**
